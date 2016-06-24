@@ -4,7 +4,7 @@ switch (hongry) {
   case 'CASH':
     var money = prompt("Cash is king! Want to spend it like you just dont care? (YES or NO)?").toUpperCase();
     var shrimp = prompt("Seafood? (YES or NO)").toUpperCase();
-    if (money === 'YES' || shrimp === 'YES') {
+    if (money === 'YES' && shrimp === 'YES') {
       window.alert("Seafood ahoy! Steak and Lobster tonight! Close me to see where you can go!");
       window.location = "https://www.grubhub.com/delivery/cuisine/seafood";
     } else {
